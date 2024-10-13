@@ -14,5 +14,10 @@ class Program
         ///initialize 
 
         tommyFavoriteNumber = 17;
+
+
+        ///Start of our actual program
+
+        Console.WriteLine("Tommy's favorite number is: " + tommyFavoriteNumber);
     }
 }
