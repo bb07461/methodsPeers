@@ -34,8 +34,11 @@ class Program
         
         int addingOfNumbers = Addition(tommyFavoriteNumber, blessingFavoriteNumber);
         int subtractOfNumbers = Subtract(blessingFavoriteNumber, tommyFavoriteNumber);
-        
-        Console.WriteLine("When we subtract together: " +subtractOfNumbers);
+        Console.WriteLine("When we subtract together: " + subtractOfNumbers);
+
+
+
+
         Console.WriteLine("When we add our favorite numbers together we get: " + addingOfNumbers);
         
     }
