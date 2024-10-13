@@ -16,6 +16,12 @@ class Program
         tommyFavoriteNumber = 17;
         blessingFavoriteNumber = 22
 
+        //subtract method 
+        static int Subtract(int a, int b)
+        {
+            return a - b;  
+        }
+
         ///Start of our actual program
 
         Console.WriteLine("Tommy's favorite number is: " + tommyFavoriteNumber);
