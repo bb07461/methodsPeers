@@ -27,8 +27,11 @@ class Program
         Console.WriteLine("Tommy's favorite number is: " + tommyFavoriteNumber);
         Console.WriteLine("Blessing's favorite number is: " + blessingFavoriteNumber);
 
-        Console.WriteLine(Addition(tommyFavoriteNumber,blessingFavoriteNumber));
+       /// Console.WriteLine(Addition(tommyFavoriteNumber,blessingFavoriteNumber));
         Console.WriteLine(Subtract(blessingFavoriteNumber,tommyFavoriteNumber));
+
+
+        Addition(tommyFavoriteNumber, blessingFavoriteNumber) = int addingOfNumbers;
     }
 
      static int Addition(int num1, int num2)
