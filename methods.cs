@@ -27,4 +27,9 @@ class Program
         Console.WriteLine("Tommy's favorite number is: " + tommyFavoriteNumber);
         Console.WriteLine("Blessing's favorite number is: " + blessingFavoriteNumber);
     }
+
+     static void Addition(int num1, int num2);
+    {
+        return num2 + num1;
+    }
 }
