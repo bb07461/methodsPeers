@@ -11,7 +11,14 @@ class Program
         int tommyFavoriteNumber;
 
 
+        ///initialize 
 
-        int blessingFavoriteNumber= 22;
+        tommyFavoriteNumber = 17;
+        blessingFavoriteNumber = 22
+
+        ///Start of our actual program
+
+        Console.WriteLine("Tommy's favorite number is: " + tommyFavoriteNumber);
+        Console.WriteLine("Blessing's favorite number is: " + blessingFavoriteNumber);
     }
 }
