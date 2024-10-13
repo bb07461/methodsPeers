@@ -9,5 +9,10 @@ class Program
         // Declare variables to hold whole numbers (favorite numbers)
         int nickFavoriteNumber;
         int tommyFavoriteNumber;
+
+
+        ///initialize 
+
+        tommyFavoriteNumber = 17;
     }
 }
