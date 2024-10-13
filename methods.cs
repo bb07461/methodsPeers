@@ -34,7 +34,7 @@ class Program
         
         int addingOfNumbers = Addition(tommyFavoriteNumber, blessingFavoriteNumber);
         int subtractOfNumbers = Subtract(blessingFavoriteNumber, tommyFavoriteNumber);
-        Console.WriteLine(Subtract(blessingFavoriteNumber,tommyFavoriteNumber));
+        Console.WriteLine("When we subtract together: " +subtractOfNumbers);
 
 
 
@@ -43,6 +43,12 @@ class Program
         
     }
 
+/// <summary>
+/// addition function for favorite numbers 
+/// </summary>
+/// <param name="num1"></param>
+/// <param name="num2"></param>
+/// <returns></returns>
      static int Addition(int num1, int num2)
     {
         return num1 + num2;
