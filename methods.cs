@@ -32,6 +32,11 @@ class Program
 
 
         Addition(tommyFavoriteNumber, blessingFavoriteNumber) = int addingOfNumbers;
+
+
+
+
+        Console.WriteLine("When we add our favorite numbers together we get: " + addingOfNumbers);
     }
 
      static int Addition(int num1, int num2)
