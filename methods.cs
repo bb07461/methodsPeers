@@ -1,4 +1,8 @@
-//Authors: Blessing & Tommy 
+/*
+    Tommy and Blessing
+    IGME 201.01 - Interac Des & Alg Prob Sol III
+    10/13/2024
+*/
 
 using System;
 
@@ -11,7 +15,7 @@ class Program
         int tommyFavoriteNumber;
 
 
-        ///initialize 
+        //initialize 
 
         tommyFavoriteNumber = 17;
         blessingFavoriteNumber = 22;
@@ -22,12 +26,12 @@ class Program
             return a - b;  
         }
 
-        ///Start of our actual program
+        //Start of our actual program
 
         Console.WriteLine("Tommy's favorite number is: " + tommyFavoriteNumber);
         Console.WriteLine("Blessing's favorite number is: " + blessingFavoriteNumber);
 
-       /// Console.WriteLine(Addition(tommyFavoriteNumber,blessingFavoriteNumber));
+       // Console.WriteLine(Addition(tommyFavoriteNumber,blessingFavoriteNumber));
     
         
         
