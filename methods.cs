@@ -14,7 +14,7 @@ class Program
         ///initialize 
 
         tommyFavoriteNumber = 17;
-        blessingFavoriteNumber = 22
+        blessingFavoriteNumber = 22;
 
         //subtract method 
         static int Subtract(int a, int b)
@@ -28,10 +28,10 @@ class Program
         Console.WriteLine("Blessing's favorite number is: " + blessingFavoriteNumber);
 
         Console.WriteLine(Addition(tommyFavoriteNumber,blessingFavoriteNumber));
-        Console.WriteLine(Subtract(,blessingFavoriteNumber,tommyFavoriteNumber));
+        Console.WriteLine(Subtract(blessingFavoriteNumber,tommyFavoriteNumber));
     }
 
-     static void Addition(int num1, int num2)
+     static int Addition(int num1, int num2)
     {
         return num1 + num2;
     }
