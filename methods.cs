@@ -29,9 +29,10 @@ class Program
 
        /// Console.WriteLine(Addition(tommyFavoriteNumber,blessingFavoriteNumber));
         Console.WriteLine(Subtract(blessingFavoriteNumber,tommyFavoriteNumber));
-
-
-        Addition(tommyFavoriteNumber, blessingFavoriteNumber) = int addingOfNumbers;
+        
+        
+        
+        int addingOfNumbers = Addition(tommyFavoriteNumber, blessingFavoriteNumber);
 
 
 
