@@ -8,6 +8,6 @@ class Program
     {
         // Declare variables to hold whole numbers (favorite numbers)
         int nickFavoriteNumber;
-        int samFavoriteNumber;
+        int tommyFavoriteNumber = 17;
     }
 }
